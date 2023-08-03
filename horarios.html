@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisiqueando | Contacto</title>
+
+    <link rel="stylesheet" href="style-horarios.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <a href="main-fisiqueando.html"><img src="imagenes/logo.png" alt="logo" width="50px" height="50px"></a>
+            </div>
+        </div>
+        <div>
+            <img class="banner" src="imagenes/banner-horarios.png" alt="banner-horarios">
+        </div>
+        <div class="header-text">
+            HORARIOS
+        <div>
+    </header>
+
+    <nav>
+        <button class="nav-button" onclick="displayMenu()">
+            <b>Menu</b> 
+        </button>
+        <a class="nav-link hide" href="main-fisiqueando.html">
+            <b>Inicio</b>
+        </a>
+        <a class="nav-link hide" href="horarios.html">
+            <b>Horarios</b>
+        </a>
+        <a class="nav-link hide" href="contacto.html">
+            <b>Contacto</b>
+        </a>
+    </nav>
+
+    <div>
+        <button id="dark-mode" class="dark-mode-button" onclick="darkMode(); changeText()">
+            <b>Oscuro</b>
+        </button>   
+    </div>
+
+    <section class="table-wrapper">
+        <table class="time-table">
+            <tr>
+                <th>Hora</th> <th>Lunes</th> <th>Martes</th> <th>Miércoles</th> <th>Jueves</th> <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>9:00</th><td>Ocupado<td>Disponible</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td>
+            </tr>
+            <tr>
+                <th>10:00</th> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td> <td>Ocupado</td> <td>Ocupado</td>
+            </tr>
+            <tr>
+                <th>11:00</th> <td>Ocupado</td> <td>Ocupado</td> <td>Ocupado</td> <td>Ocupado</td> <td>Ocupado</td>
+            </tr>
+            <tr>
+                <th>12:00</th> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td>
+            </tr>
+            <tr>
+                <th>13:00</th> <td>Disponible</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td>
+            </tr>
+            <tr>
+                <th>14:00</th> <td>Disponible</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td>
+            </tr>
+            <tr>
+                <th>15:00</th> <td>Ocupado</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td> <td>Disponible</td>
+            </tr>
+            <tr>
+                <th>16:00</th> <td>Ocupado</td> <td>Disponible</td> <td>Disponible</td> <td>Ocupado</td> <td>Disponible</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+<script src="func-fisiqueando.js"></script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisiqueando | Contacto</title>
+
+    <link rel="stylesheet" href="style-contacto.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <a href="main-fisiqueando.html"><img src="imagenes/logo.png" alt="logo" width="50px" height="50px"></a>
+            </div>
+        </div>
+        <div>
+            <img class="banner" src="imagenes/banner-contacto.png" alt="banner-contacto">
+        </div>
+        <div class="header-text">
+            CONTACTO
+        <div>
+    </header>
+
+    <nav>
+        <button class="nav-button" onclick="displayMenu()">
+            <b>Menu</b> 
+        </button>
+        <a class="nav-link hide" href="main-fisiqueando.html">
+            <b>Inicio</b>
+        </a>
+        <a class="nav-link hide" href="horarios.html">
+            <b>Horarios</b>
+        </a>
+        <a class="nav-link hide" href="contacto.html">
+            <b>Contacto</b>
+        </a>
+    </nav>
+
+    <div>
+        <button id="dark-mode" class="dark-mode-button" onclick="darkMode(); changeText()">
+            <b>Oscuro</b>
+        </button>   
+    </div>
+
+    <form action="#">
+        <h4 class="form-sect">Nombre</h4>
+        <input type="text" size="30" name="nombre" value="Juan Lagos">
+        <br>
+        <h4 class="form-sect">Correo electrónico</h4>
+        <input type="text" size="30" name="correo-electronico" value="juan@gmail.com">
+        <br>
+        <h4 class="form-sect">Numero celular</h4>
+        <input type="text" size="30" name="celular" value="+52 01-23-45-67-89">
+        <br>
+        <h4 class="form-sect">Motivo de consulta</h4>
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+        <br>
+        <input class="check" type="checkbox">
+        <div class="check-text">
+            Deseo suscribirme al newsletter
+        </div>
+        <br>
+        <button class="submit-button"><b>Enviar</b></button>
+        <br>
+    </form>
+
+
+</body>
+
+<script src="func-fisiqueando.js"></script>
+</html>
