@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisiqueando | Divulgación Científica</title>
+
+    <link rel="stylesheet" href="style-fisiqueando.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <img src="imagenes/logo.png" alt="logo" width="50px" height="50px">
+            </div>
+        </div>    
+        <div>
+            <img class="banner" src="imagenes/banner.png" alt="banner">
+        </div>
+        <div class="header-text">
+            FISIQUEANDO
+        </div>
+    </header>
+
+    <nav>
+        <button class="nav-button" onclick="displayMenu()">
+            <b>Menu</b> 
+        </button>
+        <a class="nav-link hide" href="main-fisiqueando.html">
+            <b>Inicio</b>
+        </a>
+        <a class="nav-link hide" href="horarios.html">
+            <b>Horarios</b>
+        </a>
+        <a class="nav-link hide" href="contacto.html">
+            <b>Contacto</b>
+        </a>
+    </nav>
+
+    <div>
+        <button id="dark-mode" class="dark-mode-button" onclick="darkMode(); changeText()">
+            <b>Oscuro</b>
+        </button>   
+    </div>
+
+    <div class="aside-wrapper">
+        <aside>
+            <img class="photo" src="imagenes/fisiqueando.png" alt="fisiqueando" width="400px" height="400px">
+            <br>
+            <p class="photo-caption">
+                ¡Bienvenido a fisiqueando! <br>
+                Mi nombre es Juan y tengo 25 años.
+                Soy físico y mis áreas de especialidad
+                son la cosmología y la física de
+                partículas. <br>
+                Algunos temas que me interesa investigar son
+                las estrellas de neutrones holográficas y la
+                descripción microscópica de la materia
+                fuertemente interactuante. <br>
+                Soy un apasionado de la enseñanza y la 
+                divulgación de la ciencia. Lo cual,
+                me llevó a impartir talleres científicos a 
+                niños, niñas y jóvenes por más de cinco años.
+                <br>
+                Fuera del mundo científico, soy fan de los 
+                videojuegos (uno de mis favoritos es
+                <em>The Legend of Zelda: Breath of the wild                 
+                </em>) y, de películas y libros de suspenso.
+                <br>
+                En este espacio, podrás encontrar noticias y 
+                memes científicos e información de diversos
+                temas de física y matemáticas, explicados de 
+                manera simple, dinámica y entretenida. También,
+                podrás reservar clases conmigo, para poder 
+                presumir que tú si pasaste con diez matemáticas
+                (y claro, física).   
+            </p>
+        </aside>
+    </div>    
+    
+</body>
+
+<script src="func-fisiqueando.js"></script>
+</html>
